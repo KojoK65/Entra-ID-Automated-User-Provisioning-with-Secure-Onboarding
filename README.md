@@ -12,7 +12,8 @@ This project demonstrates how to automate the creation of users in Microsoft Ent
 - Signed into Graph with the required permissions to manage users and directory data  
 - Verified the session was authenticated and ready to interact with Entra ID  
 
-📸 *Screenshot showing successful connection to Microsoft Graph*
+successful connection to Microsoft Graph
+<img width="1920" height="899" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/494b2b09-5be1-4bbc-be72-7436195992c0" />
 
 ---
 
@@ -25,7 +26,8 @@ This project demonstrates how to automate the creation of users in Microsoft Ent
   - `Department`  
 - Exported all user data into a CSV file named `lab-users.csv` for bulk import
 
-📸 *Screenshot showing the generated CSV file with user data*
+generated CSV file with user data
+<img width="1920" height="891" alt="Screenshot (35)" src="https://github.com/user-attachments/assets/14960fe7-730b-45c2-9be4-b260df2b6d41" />
 
 ---
 
@@ -35,8 +37,8 @@ This project demonstrates how to automate the creation of users in Microsoft Ent
 - Captured and logged creation results for verification  
 - All 500 users were successfully created without errors
 
-📸 *Screenshot showing user creation output*  
-📸 *Screenshot showing final confirmation message with user count*
+confirmation of 500 users creation
+<img width="1920" height="897" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/b3b8748a-c25e-49ed-8460-fe1ce4a6e2a3" />
 
 ---
 
@@ -48,8 +50,11 @@ This project demonstrates how to automate the creation of users in Microsoft Ent
   - Specific departments like Sales, HR, IT, etc.  
 - Opened individual profiles to confirm correct department and display name values
 
-📸 *Screenshot showing filtered list of new users*  
-📸 *Screenshot showing user profile with department and UPN*
+Users confirmation in entra ID admin center
+<img width="1920" height="962" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/9bf702b1-9101-4a4c-af38-e72cbe6025ee" />
+
+showing a user profile 
+<img width="1920" height="962" alt="Screenshot (32)" src="https://github.com/user-attachments/assets/2893a057-47ad-4815-9ca1-ebab69dba7c1" />
 
 ---
 
@@ -59,8 +64,11 @@ This project demonstrates how to automate the creation of users in Microsoft Ent
 - Confirmed that users were automatically added to their respective groups based on department field  
 - This step supports policy-based access management in future scenarios
 
-📸 *Screenshot showing all dynamic security groups*  
-📸 *Screenshot showing members of the Sales department group*
+ All dynamic security groups 
+<img width="1920" height="956" alt="Screenshot (30)" src="https://github.com/user-attachments/assets/f0eb41c2-235f-48c7-9120-a1d607a612bd" />
+
+ showing members of the Finance department group
+<img width="1920" height="960" alt="Screenshot (31)" src="https://github.com/user-attachments/assets/825a90aa-02a5-4b0d-97d6-8542579eae18" />
 
 ---
 
