@@ -1,4 +1,5 @@
 # 👥 Entra ID: Automated User Provisioning with Secure Onboarding
+
 ## 🎯 Project Objective  
 This project demonstrates how to automate the creation of users in Microsoft Entra ID using Microsoft Graph and Azure Cloud Shell. The goal was to simulate enterprise-level user onboarding at scale, with users dynamically assigned to department-based security groups for better identity organization and access control.
 
@@ -12,8 +13,9 @@ This project demonstrates how to automate the creation of users in Microsoft Ent
 - Signed into Graph with the required permissions to manage users and directory data  
 - Verified the session was authenticated and ready to interact with Entra ID  
 
-successful connection to Microsoft Graph
-<img width="1920" height="899" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/494b2b09-5be1-4bbc-be72-7436195992c0" />
+**✅ Successfully connected to Microsoft Graph**
+<br>
+<img width="70%" src="https://github.com/user-attachments/assets/494b2b09-5be1-4bbc-be72-7436195992c0" />
 
 ---
 
@@ -26,8 +28,9 @@ successful connection to Microsoft Graph
   - `Department`  
 - Exported all user data into a CSV file named `lab-users.csv` for bulk import
 
-generated CSV file with user data
-<img width="1920" height="891" alt="Screenshot (35)" src="https://github.com/user-attachments/assets/14960fe7-730b-45c2-9be4-b260df2b6d41" />
+**📄 CSV file with generated user data**
+<br>
+<img width="70%" src="https://github.com/user-attachments/assets/14960fe7-730b-45c2-9be4-b260df2b6d41" />
 
 ---
 
@@ -37,8 +40,9 @@ generated CSV file with user data
 - Captured and logged creation results for verification  
 - All 500 users were successfully created without errors
 
-confirmation of 500 users creation
-<img width="1920" height="897" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/b3b8748a-c25e-49ed-8460-fe1ce4a6e2a3" />
+**📈 Output showing successful creation of 500 users**
+<br>
+<img width="70%" src="https://github.com/user-attachments/assets/b3b8748a-c25e-49ed-8460-fe1ce4a6e2a3" />
 
 ---
 
@@ -50,11 +54,13 @@ confirmation of 500 users creation
   - Specific departments like Sales, HR, IT, etc.  
 - Opened individual profiles to confirm correct department and display name values
 
-Users confirmation in entra ID admin center
-<img width="1920" height="962" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/9bf702b1-9101-4a4c-af38-e72cbe6025ee" />
+**✅ Verified newly created users in Entra Admin Center**
+<br>
+<img width="70%" src="https://github.com/user-attachments/assets/9bf702b1-9101-4a4c-af38-e72cbe6025ee" />
 
-showing a user profile 
-<img width="1920" height="962" alt="Screenshot (32)" src="https://github.com/user-attachments/assets/2893a057-47ad-4815-9ca1-ebab69dba7c1" />
+**👤 User profile view with department**
+<br>
+<img width="70%" src="https://github.com/user-attachments/assets/2893a057-47ad-4815-9ca1-ebab69dba7c1" />
 
 ---
 
@@ -64,11 +70,13 @@ showing a user profile
 - Confirmed that users were automatically added to their respective groups based on department field  
 - This step supports policy-based access management in future scenarios
 
- All dynamic security groups 
-<img width="1920" height="956" alt="Screenshot (30)" src="https://github.com/user-attachments/assets/f0eb41c2-235f-48c7-9120-a1d607a612bd" />
+**🧩 List of dynamic security groups by department**
+<br>
+<img width="70%" src="https://github.com/user-attachments/assets/f0eb41c2-235f-48c7-9120-a1d607a612bd" />
 
- showing members of the Finance department group
-<img width="1920" height="960" alt="Screenshot (31)" src="https://github.com/user-attachments/assets/825a90aa-02a5-4b0d-97d6-8542579eae18" />
+**👥 Members of the Finance department group**
+<br>
+<img width="70%" src="https://github.com/user-attachments/assets/825a90aa-02a5-4b0d-97d6-8542579eae18" />
 
 ---
 
